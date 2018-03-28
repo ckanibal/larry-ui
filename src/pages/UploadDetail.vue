@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div v-if="upload">
+    <div v-if="upload" class="upload">
       <q-card>
-        <q-card-media v-if="upload.pic" overlay-position="top">
+        <q-card-media v-if="upload.pic" overlay-position="top" class="uploadImageCard">
           <q-card-title slot="overlay">
             {{ upload.title }}
             <span slot="subtitle">
